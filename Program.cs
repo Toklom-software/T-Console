@@ -35,7 +35,7 @@ namespace ProxyParser
                         await CheckProxies();
                         break;
                     case "exit":
-                        return; // Выход из программы
+                        return; 
                     default:
                         Console.WriteLine("Неизвестная команда. Используйте 'help' для списка команд.");
                         break;
